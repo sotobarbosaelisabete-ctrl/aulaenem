@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Matemática e suas Tecnologias · Reta Final ENEM 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#141B4D;--cobalt:#3B5BFF;--sun:#FFC400;--ink:#141B4D;--mut:#4A5380;--card:#fff;--line:#D5DBF5;--bg:#F4F6FF;--ok:#12A37F;--no:#E0414F;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#EEF1FF;--mut:#A9B2E0;--card:#1D2561;--line:#323C86;--bg:#0F1438;--cobalt:#7C93FF}}
+:root[data-theme="dark"]{--ink:#EEF1FF;--mut:#A9B2E0;--card:#1D2561;--line:#323C86;--bg:#0F1438;--cobalt:#7C93FF}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;font-size:17px}
+.w{max-width:760px;margin:0 auto;padding:0 18px}
+header{background:var(--navy);color:#fff;padding:24px 0 36px}
+.br{display:flex;align-items:center;gap:10px;font-family:Unbounded,sans-serif;font-weight:900;font-size:.95rem}
+h1{font-family:Unbounded,Figtree,sans-serif;font-weight:900;font-size:clamp(1.7rem,6.5vw,2.8rem);line-height:1.1;margin:26px 0 10px}
+header p{color:#C9D0F5;max-width:54ch;margin:.4em 0}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1.5px solid var(--line);padding:8px 0;font-size:.92rem;color:var(--mut)}
+.bar .w{display:flex;justify-content:space-between;gap:8px}.bar b{color:var(--ink)}
+section{padding-top:40px}
+h2{font-family:Unbounded,Figtree,sans-serif;font-weight:700;font-size:1.2rem;line-height:1.25;margin:0 0 8px}
+p{margin:.5em 0;max-width:62ch}.mut{color:var(--mut)}
+.ex{border-left:4px solid var(--sun);padding:6px 12px;background:var(--card);border-radius:0 10px 10px 0;margin:12px 0}
+.c{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:16px;margin-top:12px}
+.c p:first-child{margin-top:0;font-weight:600}
+.o{display:block;width:100%;text-align:left;font:inherit;background:var(--bg);color:var(--ink);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:8px;cursor:pointer}
+.o.ok{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 20%,var(--card))}
+.o.no{border-color:var(--no);background:color-mix(in srgb,var(--no) 16%,var(--card))}
+.o:focus-visible,.btn:focus-visible,input:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+.fb{color:var(--mut);margin:8px 0 0;min-height:1.3em}
+input[type=range]{width:100%;accent-color:var(--cobalt)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:10px}
+.two div{border:1.5px solid var(--line);border-radius:10px;padding:10px;text-align:center}
+.two span{display:block;font-family:Unbounded,sans-serif;font-weight:700;font-size:1.3rem}
+.two .best{border-color:var(--ok);background:color-mix(in srgb,var(--ok) 16%,var(--card))}
+.hook{background:var(--navy);color:#fff;border-radius:16px;padding:22px;margin-top:44px}
+.hook h2{color:var(--sun)}.hook .o{background:#1D2561;color:#fff;border-color:#323C86}
+.hook .o.pick{border-color:var(--sun)}
+.btn{display:inline-block;background:var(--sun);color:var(--navy);text-decoration:none;font-weight:700;padding:12px 18px;border-radius:12px;margin-top:14px}
+footer{padding:28px 0 44px;color:var(--mut);font-size:.9rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="w">
+<div class="br"><svg width="34" height="34" viewBox="0 0 64 64" aria-hidden="true"><rect width="64" height="64" rx="14" fill="#3B5BFF"/><path d="M14 14V50H52" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 44L46 20" stroke="#FFC400" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="18" r="6" fill="#FFC400"/></svg>RETA FINAL · @eu_abete</div>
+<h1>Matemática e suas Tecnologias</h1>
+<p>ENEM 2026, prova de 15 de novembro. Os cinco grandes blocos de conteúdo da Matriz de Referência, explicados com situações da sua rotina: app de corrida, pizza, academia, notas e streaming.</p>
+<p>Por @eu_abete: formanda em Engenharia, apaixonada pelas histórias que os números nos contam.</p>
+</div></header>
+<div class="bar"><div class="w"><span>Exercícios feitos: <b id="n">0/9</b></span><span>Acertos: <b id="s">0</b></span></div></div>
+<main class="w" id="app"></main>
+
+<main class="w">
+<div class="hook">
+<h2>Antes de ir: um desafio</h2>
+<p>Você investe R$ 1.000 a 1% ao mês. Em quanto tempo esse dinheiro dobra?</p>
+<button class="o" data-h="0">100 meses</button><button class="o" data-h="1">70 meses</button><button class="o" data-h="2">50 meses</button><button class="o" data-h="3">30 meses</button>
+<p id="hf" class="fb" style="color:#C9D0F5"></p>
+<a class="btn" href="https://instagram.com/eu_abete">Seguir @eu_abete</a>
+</div>
+<footer>Baseado nos cinco grupos de objetos de conhecimento da Matriz de Referência de Matemática e suas Tecnologias do ENEM. Confira a matriz completa no portal do Inep.</footer>
+</main>
+
+<script>
+const M=[
+{h:"Conhecimentos numéricos",t:"Porcentagem é uma fração de 100. Aumentar 20% é multiplicar por 1,20. Reduzir 20% é multiplicar por 0,80. Regra de três serve quando duas grandezas crescem juntas.",x:"Pedido de R$ 50 no app de delivery com taxa de 12%: 50 × 1,12 = R$ 56.",e:[
+{q:"Sua assinatura de streaming custa R$ 40 e sobe 25%. Que desconto traz o preço de volta aos R$ 40?",o:["25%","20%","15%","30%"],a:1,f:"O novo preço é R$ 50. Voltar a R$ 40 é tirar R$ 10 de R$ 50, ou seja, 20%. O desconto incide sobre a base maior."},
+{q:"Um app de corrida cobra R$ 3,50 fixos mais R$ 1,80 por km. Quanto custa um trajeto de 12 km?",o:["R$ 21,60","R$ 25,10","R$ 25,50","R$ 54,00"],a:1,f:"12 × 1,80 = 21,60. Somando a taxa fixa de 3,50, dá R$ 25,10."}]},
+{h:"Conhecimentos geométricos",t:"Área do círculo = π · r². Se o diâmetro dobra, a área fica 4 vezes maior. Escala 1:50.000 significa que 1 cm no mapa equivale a 500 m na rua.",x:"Pizza de 20 cm e outra de 40 cm: a maior não tem o dobro, tem o quádruplo de pizza.",e:[
+{q:"Pizza média: 30 cm de diâmetro por R$ 45. Grande: 40 cm por R$ 70. Qual compensa mais por cm²?",o:["A média","A grande","Custam o mesmo","Não dá para saber"],a:1,f:"Média: 45 ÷ 707 ≈ R$ 0,064 por cm². Grande: 70 ÷ 1.257 ≈ R$ 0,056 por cm². Compare sempre pela área."},
+{q:"Num mapa com escala 1:50.000, o caminho de casa até a faculdade mede 4 cm. Qual a distância real?",o:["200 m","2 km","20 km","4 km"],a:1,f:"4 × 50.000 = 200.000 cm, que equivalem a 2 km."}]},
+{h:"Estatística e probabilidade",t:"Média é a soma dividida pela quantidade. Probabilidade é casos favoráveis dividido por casos possíveis.",x:"Notas 6, 8 e 7: média = 21 ÷ 3 = 7.",e:[
+{q:"Suas notas: 5, 8 e 6. Quanto precisa tirar na 4ª prova para fechar média 7?",o:["7","8","9","10"],a:2,f:"Para média 7 em 4 provas, a soma precisa ser 28. Você tem 19, então faltam 9."},
+{q:"Playlist aleatória com 10 músicas, 4 delas de sertanejo. Qual a chance de a primeira ser sertanejo?",o:["4%","25%","40%","60%"],a:2,f:"4 favoráveis em 10 possíveis: 4/10 = 40%."}]},
+{h:"Conhecimentos algébricos",t:"Função afim: f(x) = a·x + b. O b é o valor fixo e o a é quanto muda a cada unidade. Comparar dois planos é comparar duas retas.",x:"Academia B: R$ 40 fixos + R$ 10 por visita, C(x) = 40 + 10x. Com 3 visitas: R$ 70.",w:1,e:[
+{q:"A partir de quantas visitas no mês o plano A (R$ 90 fixos) fica mais barato que o B?",o:["4","5","6","9"],a:2,f:"Com 5 visitas empata em R$ 90. Com 6, o plano B custa R$ 100 e o A compensa."}]},
+{h:"Conhecimentos algébricos e geométricos",t:"Cada ponto do mapa é um par (x, y). A distância entre dois pontos é Pitágoras: d = √[(Δx)² + (Δy)²]. O ponto médio é a média das coordenadas.",x:"Casa em (1, 1) e estágio em (4, 5): Δx = 3, Δy = 4, distância = 5 km.",e:[
+{q:"Casa em (2, 3) e faculdade em (8, 11), em km. Qual a distância em linha reta?",o:["8 km","10 km","14 km","6 km"],a:1,f:"Δx = 6 e Δy = 8. Então d = √(36 + 64) = 10 km."},
+{q:"Você e um amigo, em (2, 3) e (8, 11), vão se encontrar no ponto médio. Qual é ele?",o:["(5, 7)","(6, 8)","(10, 14)","(4, 6)"],a:0,f:"Média de x: (2 + 8) ÷ 2 = 5. Média de y: (3 + 11) ÷ 2 = 7."}]}];
+let tot=0,hit=0;
+document.getElementById("app").innerHTML=M.map((m,i)=>`<section><h2>${i+1}. ${m.h}</h2><p class="mut">${m.t}</p><div class="ex"><b>Exemplo.</b> ${m.x}</div>${m.w?`<div class="c"><p>Mexa nas visitas do mês</p><input type="range" id="vz" min="0" max="12" value="3" aria-label="Visitas por mês"><div class="two"><div id="pa"></div><div id="pb"></div></div></div>`:""}${m.e.map((x,k)=>`<div class="c" data-m="${i}" data-k="${k}"><p>${x.q}</p>${x.o.map((t,j)=>`<button class="o" data-j="${j}">${t}</button>`).join("")}<p class="fb"></p></div>`).join("")}</section>`).join("");
+document.querySelectorAll(".c[data-k] .o").forEach(b=>b.onclick=()=>{const c=b.closest(".c"),q=M[c.dataset.m].e[c.dataset.k],bs=c.querySelectorAll(".o");
+if(c.dataset.d)return;c.dataset.d=1;const j=+b.dataset.j;bs[q.a].classList.add("ok");if(j!=q.a)b.classList.add("no");else hit++;
+tot++;c.querySelector(".fb").textContent=(j==q.a?"Certo. ":"Quase. ")+q.f;
+document.getElementById("n").textContent=tot+"/9";document.getElementById("s").textContent=hit});
+const vz=document.getElementById("vz");
+function pl(){const x=+vz.value,b=40+10*x;document.getElementById("pa").innerHTML=`Plano A<span>R$ 90</span>`;document.getElementById("pb").innerHTML=`Plano B<span>R$ ${b}</span>`;
+document.getElementById("pa").className=b>90?"best":"";document.getElementById("pb").className=b<90?"best":"";vz.setAttribute("aria-valuetext",x+" visitas")}
+vz.oninput=pl;pl();
+document.querySelectorAll("[data-h]").forEach(b=>b.onclick=()=>{document.querySelectorAll("[data-h]").forEach(x=>x.classList.remove("pick"));b.classList.add("pick");
+document.getElementById("hf").textContent="Chute anotado. A resposta, e um truque para fazer de cabeça, ficam para a próxima aula, sobre juros compostos. Segue o @eu_abete para não perder."});
+</script>
+</body>
+</html>
