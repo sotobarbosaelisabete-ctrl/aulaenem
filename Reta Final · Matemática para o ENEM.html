@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reta Final · Matemática para o ENEM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@700;900&family=Figtree:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#141B4D;--cobalt:#3B5BFF;--sun:#FFC400;--paper:#F4F6FF;--ink:#141B4D;--mut:#4A5380;--card:#fff;--line:#D5DBF5;--bg:#F4F6FF;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#EEF1FF;--mut:#A9B2E0;--card:#1D2561;--line:#323C86;--bg:#0F1438}}
+:root[data-theme="dark"]{--ink:#EEF1FF;--mut:#A9B2E0;--card:#1D2561;--line:#323C86;--bg:#0F1438}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*:before,*:after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Figtree,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55;font-size:17px}
+.w{max-width:880px;margin:0 auto;padding:0 18px}
+.hero{background:var(--navy);color:#fff;padding:28px 0 48px}
+.brand{display:flex;align-items:center;gap:12px}
+.brand b{font-family:Unbounded,Figtree,sans-serif;font-weight:900;font-size:1.15rem;letter-spacing:.02em;line-height:1}
+.hero h1{font-family:Unbounded,Figtree,sans-serif;font-weight:900;font-size:clamp(1.9rem,7vw,3.4rem);line-height:1.08;margin:34px 0 14px}
+.hero p{max-width:56ch;color:#C9D0F5;font-size:1.1rem}
+.count{display:inline-flex;align-items:baseline;gap:10px;margin-top:20px;background:var(--sun);color:var(--navy);border-radius:14px;padding:12px 18px}
+.count span{font-family:Unbounded,sans-serif;font-weight:900;font-size:2.4rem;line-height:1}
+.btn{display:inline-block;background:var(--cobalt);color:#fff;text-decoration:none;font-weight:700;padding:13px 20px;border-radius:12px;margin-top:20px}
+.btn:focus-visible,button:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+section{padding:46px 0 0}
+h2{font-family:Unbounded,Figtree,sans-serif;font-weight:700;font-size:1.45rem;line-height:1.2;margin:0 0 12px}
+p{margin:.5em 0;max-width:62ch}.mut{color:var(--mut)}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));margin-top:16px}
+.c{background:var(--card);border:1.5px solid var(--line);border-radius:14px;padding:16px}
+.c h3{margin:0 0 4px;font-size:1.05rem}
+.c small{color:var(--mut)}
+.q button{display:block;width:100%;text-align:left;font:inherit;background:var(--card);color:var(--ink);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;margin-top:8px;cursor:pointer}
+.q button.ok{border-color:#12A37F;background:color-mix(in srgb,#12A37F 20%,var(--card))}
+.q button.no{border-color:#E0414F;background:color-mix(in srgb,#E0414F 16%,var(--card))}
+#fb{margin-top:10px;min-height:1.4em}
+.sw{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.sw div{flex:1 1 130px;border-radius:12px;padding:46px 12px 10px;font-size:.85rem;font-weight:600;border:1.5px solid var(--line)}
+.posts{display:grid;gap:12px;grid-template-columns:repeat(3,1fr);margin-top:16px}
+.p{aspect-ratio:4/5;border-radius:12px;padding:12px;display:flex;flex-direction:column;justify-content:space-between;font-family:Unbounded,Figtree,sans-serif;font-weight:700;font-size:clamp(.62rem,2.3vw,.95rem);line-height:1.15}
+.p small{font-family:Figtree,sans-serif;font-weight:600;font-size:.72em;opacity:.8}
+.p1{background:var(--navy);color:#fff}.p2{background:var(--sun);color:var(--navy)}.p3{background:var(--cobalt);color:#fff}
+ol,ul{padding-left:1.2em;margin:.4em 0}li{margin:.25em 0}
+footer{margin-top:56px;padding:26px 0 40px;border-top:1.5px solid var(--line);color:var(--mut);font-size:.9rem}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="hero"><div class="w">
+<div class="brand">
+<svg width="44" height="44" viewBox="0 0 64 64" role="img" aria-label="Logo Reta Final"><rect width="64" height="64" rx="14" fill="#3B5BFF"/><path d="M14 14V50H52" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M18 44L46 20" stroke="#FFC400" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="18" r="6" fill="#FFC400"/></svg>
+<b>RETA FINAL</b>
+</div>
+<h1>Matemática do ENEM, direto ao ponto.</h1>
+<p>Conteúdo gratuito no Instagram: questões comentadas, lógica e raciocínio, sempre com a pergunta "onde isso cai na prova?".</p>
+<div class="count"><span id="dias">--</span><b id="lbl">dias para a prova de Matemática</b></div><br>
+<a class="btn" href="#">Seguir no Instagram @seuperfil</a>
+</div></header>
+
+<main class="w">
+<section>
+<h2>Teste agora: questão no estilo ENEM</h2>
+<div class="c q">
+<p><b>Um celular custa R$ 1.200. A loja dá 15% de desconto e, sobre o novo preço, mais 10%. Qual o preço final?</b></p>
+<button data-k="0">R$ 900</button><button data-k="1">R$ 918</button><button data-k="2">R$ 1.020</button><button data-k="3">R$ 840</button>
+<p id="fb" class="mut"></p>
+</div>
+</section>
+
+<section>
+<h2>O que você vai encontrar</h2>
+<div class="grid">
+<div class="c"><h3>Porcentagem e proporção</h3><small>Descontos, juros, escalas, regra de três. É onde mais se perde ponto à toa.</small></div>
+<div class="c"><h3>Estatística e probabilidade</h3><small>Média, mediana, gráficos e chances, como aparecem nos textos da prova.</small></div>
+<div class="c"><h3>Funções e gráficos</h3><small>Ler o gráfico antes de calcular. Muitas questões se resolvem só com isso.</small></div>
+<div class="c"><h3>Geometria e raciocínio lógico</h3><small>Áreas, volumes e problemas que pedem estratégia, não fórmula decorada.</small></div>
+</div>
+<p class="mut" style="margin-top:14px">Sobre cálculo: o ENEM cobra matemática de nível médio, sem derivadas e integrais. Este perfil foca no que realmente cai e deixa cálculo como conteúdo extra para quem quer ir além.</p>
+</section>
+
+<section>
+<h2>Como funciona no Instagram</h2>
+<div class="grid">
+<div class="c"><h3>Todo dia</h3><small>Um Reels de até 60 segundos resolvendo uma questão em 3 passos.</small></div>
+<div class="c"><h3>Duas vezes por semana</h3><small>Carrossel com o resumo do tema e os erros mais comuns.</small></div>
+<div class="c"><h3>Nos stories</h3><small>Enquete com alternativas e resposta comentada no dia seguinte.</small></div>
+<div class="c"><h3>No link da bio</h3><small>Aulas interativas gratuitas, como a de estatística, para treinar mexendo nos dados.</small></div>
+</div>
+</section>
+
+<section>
+<h2>Identidade visual</h2>
+<p class="mut">Conceito: uma reta que sobe até um ponto de chegada. É o gráfico mais simples da matemática e também a ideia de reta final. Visual limpo, cores fortes e leitura rápida no celular.</p>
+<div class="sw">
+<div style="background:#141B4D;color:#fff">Navy #141B4D<br>base e fundos</div>
+<div style="background:#3B5BFF;color:#fff">Cobalto #3B5BFF<br>destaque e botões</div>
+<div style="background:#FFC400;color:#141B4D">Sol #FFC400<br>resposta e alerta</div>
+<div style="background:#F4F6FF;color:#141B4D">Papel #F4F6FF<br>páginas claras</div>
+</div>
+<div class="grid">
+<div class="c"><h3>Tipografia</h3><small><b style="font-family:Unbounded,sans-serif">Unbounded</b> nos títulos e números grandes. <b>Figtree</b> no texto corrido. Duas famílias, nada além disso.</small></div>
+<div class="c"><h3>Tom de voz</h3><small>Direto e respeitoso, de quem fala com adulto. Sem gíria forçada e sem promessa de nota. Frases curtas, um passo por vez.</small></div>
+</div>
+<div class="posts" aria-label="Exemplos de posts">
+<div class="p p1"><span>Desconto de 15% + 10% não é 25%</span><small>Reta Final · Porcentagem</small></div>
+<div class="p p2"><span>3 passos para ler qualquer gráfico</span><small>Reta Final · Funções</small></div>
+<div class="p p3"><span>Média ou mediana? Escolha certo</span><small>Reta Final · Estatística</small></div>
+</div>
+</section>
+
+<footer>Reta Final é o nome de trabalho. Troque o nome, o @ e as cores quando quiser: a estrutura da página permanece.</footer>
+</main>
+
+<script>
+const d=Math.ceil((new Date(2026,10,15)-new Date())/864e5);
+if(d>0){document.getElementById("dias").textContent=d}else{document.getElementById("dias").textContent="ENEM";document.getElementById("lbl").textContent="a próxima prova vem aí"}
+const E=["Não: 25% de desconto total seria R$ 900, mas os descontos são sucessivos.","Correto: 1.200 × 0,85 = 1.020 e 1.020 × 0,90 = 918. O segundo desconto incide sobre o valor já reduzido.","Esse é o preço depois só do primeiro desconto.","Esse valor seria um desconto de 30%, que não é o caso."];
+document.querySelectorAll(".q button").forEach(b=>b.onclick=()=>{const k=+b.dataset.k,all=document.querySelectorAll(".q button");
+all.forEach(x=>x.classList.remove("ok","no"));b.classList.add(k==1?"ok":"no");if(k!=1)all[1].classList.remove("ok");
+document.getElementById("fb").textContent=E[k]});
+</script>
+</body>
+</html>
